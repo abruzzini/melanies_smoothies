@@ -28,7 +28,7 @@ ingredients_list = st.multiselect(
 )
 
 if ingredients_list: #significa if ingredient list is not null
-        ingredients_string = ''
+    ingredients_string = ''
 
     for fruit_chosen in ingredients_list:
     #for each fruit_chosen in
